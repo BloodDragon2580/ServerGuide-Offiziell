@@ -1,0 +1,7 @@
+pages:
+  - welcome
+  - rules
+  - homes
+  - commands
+
+# Add matching page entries to every language file.

@@ -1,0 +1,24 @@
+name: ServerGuide
+version: '${version}'
+main: de.blooddragon.serverguide.ServerGuidePlugin
+api-version: '26.1'
+author: BloodDragon
+description: Multilingual join guide using native Minecraft dialogs.
+
+commands:
+  serverguide:
+    description: Opens or manages the server guide.
+    usage: /serverguide [open|reload|reset]
+    aliases: [guide, anleitung]
+    permission: serverguide.use
+
+permissions:
+  serverguide.use:
+    description: Allows opening the server guide.
+    default: true
+  serverguide.admin:
+    description: Allows reloading and resetting guide preferences.
+    default: op
+  serverguide.bypass:
+    description: Prevents the guide from opening automatically.
+    default: false

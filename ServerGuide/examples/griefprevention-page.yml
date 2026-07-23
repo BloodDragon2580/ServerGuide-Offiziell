@@ -1,0 +1,7 @@
+claiming:
+  title: "<green><bold>Claiming Land</bold></green>"
+  lines:
+    - "<white>Hold a golden shovel in your hand.</white>"
+    - "<yellow>1.</yellow> Right-click the first corner."
+    - "<yellow>2.</yellow> Right-click the opposite corner."
+    - "<green>The selected area is now protected.</green>"

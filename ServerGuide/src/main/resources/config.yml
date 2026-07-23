@@ -1,0 +1,45 @@
+# ============================================================
+# ServerGuide - Public configuration
+# ServerGuide - Öffentliche Konfiguration
+# ============================================================
+
+enabled: true
+
+# Delay after joining. 20 ticks = 1 second.
+# Verzögerung nach dem Beitritt. 20 Ticks = 1 Sekunde.
+join-delay-ticks: 40
+
+# Automatically open the guide when players join.
+# Anleitung beim Betreten automatisch öffnen.
+show-on-join: true
+
+# Locale used if the player's language is unavailable.
+# Sprache, wenn die Spielersprache nicht verfügbar ist.
+default-language: en_US
+fallback-language: en_US
+
+# Allow closing the dialog with ESC.
+# Schließen mit ESC erlauben.
+allow-escape: true
+
+# Number of button columns.
+# Anzahl der Button-Spalten.
+button-columns: 2
+
+# Change these values once. They can be used in every language file.
+# Diese Werte nur einmal ändern. Sie können in allen Sprachdateien verwendet werden.
+server:
+  name: "My Minecraft Server"
+  website: "https://example.com"
+  website-display: "example.com"
+  discord: "https://discord.gg/example"
+  discord-display: "discord.gg/example"
+
+# Page order. Add matching pages to every language file.
+# Seitenreihenfolge. Passende Seiten in jeder Sprachdatei ergänzen.
+pages:
+  - welcome
+  - claiming
+  - protection
+  - homes
+  - commands

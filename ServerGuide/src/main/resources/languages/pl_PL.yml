@@ -1,0 +1,57 @@
+meta:
+  language-name: Polski
+buttons:
+  previous: <gray>Wstecz</gray>
+  next: <green>Dalej</green>
+  close: <yellow>Zamknij</yellow>
+  disable: <red>Nie pokazuj ponownie</red>
+messages:
+  disabled: <green>Przewodnik serwera nie będzie już otwierany automatycznie.</green>
+  reset-self: <green>Twoje ustawienie przewodnika zostało zresetowane.</green>
+  reset-other: <green>Ustawienie przewodnika gracza <player> zostało zresetowane.</green>
+  reloaded: <green>Konfiguracja i języki ServerGuide zostały przeładowane.</green>
+  no-permission: <red>Nie masz uprawnień.</red>
+  player-not-found: <red>Nie znaleziono gracza.</red>
+  player-only: <red>Tej komendy może użyć tylko gracz.</red>
+pages:
+  welcome:
+    title: <gold><bold>Welcome to <server_name></bold></gold>
+    lines:
+    - <white>Welcome to <aqua><server_name></aqua>!</white>
+    - ''
+    - <gray>This guide explains the most important features of the server.</gray>
+    - ''
+    - <yellow>Website:</yellow> <click:open_url:'<website>'><hover:show_text:'<green>Open website</green>'><aqua><underlined><website_display></underlined></aqua></hover></click>
+    - <yellow>Discord:</yellow> <click:open_url:'<discord>'><hover:show_text:'<green>Open Discord</green>'><aqua><underlined><discord_display></underlined></aqua></hover></click>
+    - ''
+    - <gray>Use <white>/serverguide</white> to open this guide again at any time.</gray>
+  claiming:
+    title: <green><bold>Claiming Land</bold></green>
+    lines:
+    - <white>Replace this text with instructions for your claim plugin.</white>
+    - ''
+    - <yellow>Example:</yellow>
+    - <gray>Select two opposite corners of your area.</gray>
+    - <gray>Add the required commands and tools here.</gray>
+  protection:
+    title: <gold><bold>Protecting Doors and Chests</bold></gold>
+    lines:
+    - <white>Replace this text with instructions for your protection plugin.</white>
+    - ''
+    - <yellow>Example:</yellow> <aqua>/lock</aqua>
+    - <gray>Add more steps and supported blocks here.</gray>
+  homes:
+    title: <aqua><bold>Setting Your Home</bold></aqua>
+    lines:
+    - <aqua>/sethome</aqua>
+    - <gray>Saves your current location as home.</gray>
+    - ''
+    - <aqua>/home</aqua>
+    - <gray>Teleports you to your saved home.</gray>
+  commands:
+    title: <light_purple><bold>Important Commands</bold></light_purple>
+    lines:
+    - <white>Add the most important commands for your server here.</white>
+    - ''
+    - <aqua>/spawn</aqua> <gray>- Teleports you to spawn.</gray>
+    - <aqua>/serverguide</aqua> <gray>- Opens this guide again.</gray>

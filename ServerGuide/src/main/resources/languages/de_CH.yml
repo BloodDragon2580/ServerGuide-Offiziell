@@ -1,0 +1,64 @@
+meta:
+  language-name: "Deutsch (Schweiz)"
+
+buttons:
+  previous: "<gray>Zurück</gray>"
+  next: "<green>Weiter</green>"
+  close: "<yellow>Schließen</yellow>"
+  disable: "<red>Nicht mehr anzeigen</red>"
+
+messages:
+  disabled: "<green>Die Server-Anleitung wird dir nicht mehr automatisch angezeigt.</green>"
+  reset-self: "<green>Deine Einstellung für die Anleitung wurde zurückgesetzt.</green>"
+  reset-other: "<green>Die Einstellung von <player> wurde zurückgesetzt.</green>"
+  reloaded: "<green>ServerGuide-Konfiguration und Sprachdateien wurden neu geladen.</green>"
+  no-permission: "<red>Dafür hast du keine Berechtigung.</red>"
+  player-not-found: "<red>Spieler wurde nicht gefunden oder ist nicht online.</red>"
+  player-only: "<red>Dieser Befehl kann nur von einem Spieler verwendet werden.</red>"
+
+pages:
+  welcome:
+    title: "<gold><bold>Willkommen bei <server_name></bold></gold>"
+    lines:
+      - "<white>Willkommen auf <aqua><server_name></aqua>!</white>"
+      - ""
+      - "<gray>Diese Anleitung erklärt dir die wichtigsten Funktionen des Servers.</gray>"
+      - ""
+      - "<yellow>Website:</yellow> <click:open_url:'<website>'><hover:show_text:'<green>Website öffnen</green>'><aqua><underlined><website_display></underlined></aqua></hover></click>"
+      - "<yellow>Discord:</yellow> <click:open_url:'<discord>'><hover:show_text:'<green>Discord öffnen</green>'><aqua><underlined><discord_display></underlined></aqua></hover></click>"
+      - ""
+      - "<gray>Mit <white>/serverguide</white> kannst du die Anleitung jederzeit erneut öffnen.</gray>"
+
+  claiming:
+    title: "<green><bold>Land sichern</bold></green>"
+    lines:
+      - "<white>Ersetze diesen Text durch die Anleitung deines Claim-Plugins.</white>"
+      - ""
+      - "<yellow>Beispiel:</yellow>"
+      - "<gray>Markiere zwei gegenüberliegende Ecken deines Grundstücks.</gray>"
+      - "<gray>Trage hier die passenden Befehle und Werkzeuge ein.</gray>"
+
+  protection:
+    title: "<gold><bold>Türen und Truhen sichern</bold></gold>"
+    lines:
+      - "<white>Ersetze diesen Text durch die Anleitung deines Schutz-Plugins.</white>"
+      - ""
+      - "<yellow>Beispiel:</yellow> <aqua>/lock</aqua>"
+      - "<gray>Füge hier weitere Schritte und unterstützte Blöcke hinzu.</gray>"
+
+  homes:
+    title: "<aqua><bold>Zuhause festlegen</bold></aqua>"
+    lines:
+      - "<aqua>/sethome</aqua>"
+      - "<gray>Legt den aktuellen Standort als Zuhause fest.</gray>"
+      - ""
+      - "<aqua>/home</aqua>"
+      - "<gray>Teleportiert dich zu deinem gespeicherten Zuhause.</gray>"
+
+  commands:
+    title: "<light_purple><bold>Wichtige Befehle</bold></light_purple>"
+    lines:
+      - "<white>Trage hier die wichtigsten Befehle deines Servers ein.</white>"
+      - ""
+      - "<aqua>/spawn</aqua> <gray>- Teleportiert dich zum Spawn.</gray>"
+      - "<aqua>/serverguide</aqua> <gray>- Öffnet diese Anleitung erneut.</gray>"
