@@ -1,0 +1,16 @@
+ServerGuide 1.3.1
+
+Build fix for Windows.
+Build target: Paper API 26.2.
+Minimum plugin API declaration remains 26.1.
+Java: 25.
+Gradle: 9.7.1.
+
+Builder changes:
+- Uses its own portable JDK 25 to avoid JAVA_HOME/PATH conflicts.
+- Uses Gradle 9.7.1, which supports running on Java 25.
+- Outer build.bat always remains open and reports the exit code.
+- Gradle output is written to ServerGuide\build.log.
+- Paper dependency uses the current stable 26.2 build line.
+
+On Windows, extract the ZIP completely and run build.bat from the top folder.

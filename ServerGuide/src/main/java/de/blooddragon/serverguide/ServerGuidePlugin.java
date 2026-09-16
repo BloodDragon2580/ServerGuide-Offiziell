@@ -28,7 +28,7 @@ public final class ServerGuidePlugin extends JavaPlugin {
             pluginCommand.setTabCompleter(command);
         }
 
-        getLogger().info("ServerGuide 1.3.0 enabled.");
+        getLogger().info("ServerGuide 1.3.1 enabled.");
     }
 
     public void reloadPlugin() {

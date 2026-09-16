@@ -252,3 +252,10 @@ Aliase:
     serverguide.bypass
 
 Spieler mit `serverguide.bypass` erhalten die Anleitung beim Betreten nicht automatisch.
+
+## Paper compatibility / Paper-Kompatibilität
+
+- Build target: Paper / Minecraft 26.3
+- Backward-compatible API floor: `26.1`
+- Native Paper dialog API is used without raising the plugin API floor
+- Java 25
